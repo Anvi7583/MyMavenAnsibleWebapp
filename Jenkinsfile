@@ -1,3 +1,4 @@
+pipeline {
     agent any  // Use any available agent
     
     environment {
@@ -11,7 +12,7 @@
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/Anvi7583/MyMavenAnsibleWebapp.git'
+                git branch: 'master', url: 'https://github.com/Hemavathipcse/MavenAnsibleWebApp.git'
             }
         }
 
